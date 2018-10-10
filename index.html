@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>SagaMarket: Todo lo que necesitas en un mismo sitio</title>
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
+	<link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Arimo|Lobster|Sarala" rel="stylesheet">  
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script src="https://use.fontawesome.com/a14e9315cc.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+
+<body>
+
+    <header id="header1">
+    	    <div class="container">
+			<div id="startlogo">
+				</div>
+			<nav id="nav">
+				<a id="register"><i class="fa fa-user" aria-hidden="true"></i>  Registro</a>
+				<a id="login"><i class="fa fa-sign-in fa-1x" aria-hidden="true"></i>  Acceder</a>
+				<a href="#block_2"><i class="fa fa-hand-o-up fa-1x" aria-hidden="true"></i>  Nosotros</a>
+				<a href="#block_3"><i class="fa fa-envelope fa-1x" aria-hidden="true"></i>  Contactanos</a>
+				<a href="start.html"><i class="fa fa-star-o fa-1x" aria-hidden="true"></i>  Comenzar</a>
+			</nav>
+		</div>
+	</header>
+	
+	<div id="wraper">
+		<section id="block_1">
+			<div id="text1">
+				<p>Bienvenido a SagaMarket</p>
+			</div>
+		</section>
+
+		<section id="block_2">
+			<div id="text2">
+				<p>SAGAMARKET es una empresa totalmente mexicana, su principal funcion es
+				ofrecer una nueva plataforma de comercio electronico.
+				Con el fin de mejorar la experiencia de usuario se ha implementado un nuevo sistema
+				de truque con el fin de ofrecer a nuestros usuarios otra manera de conseguir los
+				productos que desee.
+			</p>
+			</div>
+		</section>
+
+		<section id="block_3">
+			<div id="text3">
+				<div id="contact-info">
+					<p>¡Tu opinion nos interesa!</p>
+					<p>Ayudanos a mejorar enviandonos tus comentarios</p>
+				</div>
+				<form id="contact">
+					<input type="text" name="Nombre" placeholder="Nombre">
+					<input type="text" name="Correo" placeholder="Correo">
+					<textarea name="mesage" placeholder="Cuentanos tus ideas..." rows="5"></textarea>
+					<button type="submit" id="send">
+						<i class="fa fa-paper-plane-o" aria-hidden="true"></i> Enviar
+					</button>
+				</form>
+			</div>
+		</section>
+	</div>
+
+	<div class="modal_login">
+		<div class="elements">
+		<i id="closed1" class="fa fa-times fa-1x" aria-hidden="true"></i>
+		<form class="form_login">
+		<input type="text" name="Correo" placeholder="Correo">
+		<input type="password" name="Contraseña" placeholder="Contraseña">
+	    </form>
+	    <center><button type="submit" class="acces"><i class="fa fa-sign-in fa-1x" aria-hidden="true"></i> Acceder</button></center>
+	    </div>
+	</div>
+
+	<div class="modal_register">
+		<div class="elements_register">
+			<p>Bienvenido, porfavor llena los siguientes datos para completar tu registro
+				<i id="closed2" class="fa fa-times fa-1x" aria-hidden="true"></i>
+			</p>
+			<form class="form_register">
+				<input type="text" name="Correo" placeholder="Correo">
+		        <input type="password" name="Contraseña" placeholder="Contraseña">
+		        <input type="password" name="confirmpassword" placeholder="Confirmar contraseña">
+		        <input type="text" name="Nombre" placeholder="Nombre">
+		        <input type="text" name="Apellido" placeholder="Apellido">
+		        <input type="text" name="No.ext" placeholder="Numero exterior">
+		        <input type="text" name="No.int" placeholder="Numero interior">
+		        <input type="text" name="Telefono" placeholder="Telefono">
+		        <input type="text" name="Domicilio" placeholder="Domicilio">
+		        <input type="text" name="postalcod" placeholder="Codigo postal">
+		        <select id="estado" name="Estado"> Estado</select>
+		        <option value="Estado">Estado</option>
+		        <select id="municipio" name="municipio">Municipio</select>
+		        <option value="Municipio">Municipio</option>
+	        </form>
+	         <center><button type="submit" class="acces"><i class="fa fa-sign-in fa-1x" aria-hidden="true"></i> Registrar</button></center>
+			</form>
+		</div>
+	</div>
+
+
+</body>
+</html>
